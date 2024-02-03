@@ -83,7 +83,8 @@ const Getweather = (props) => {
   };
 
   const getLoc = async (lat, long) => {
-    const url = `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key={"paste you api key here"}&include=minutely`;
+    
+    const url = `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=55f26aaa44914ba19193bc91537eebdc&include=minutely`;
 
     try {
       const data = await fetch(url);
